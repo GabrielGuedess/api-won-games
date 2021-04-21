@@ -43,12 +43,13 @@
     "rating": {
       "type": "enumeration",
       "enum": [
-        "FREE",
-        "pegi3",
-        "pegi7",
-        "pegi12",
-        "pegi16",
-        "pegi18"
+        "BRO",
+        "BR3",
+        "BR7",
+        "BR14",
+        "BR12",
+        "BR16",
+        "BR18"
       ]
     },
     "cover": {
