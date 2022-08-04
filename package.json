@@ -19,7 +19,7 @@
     "pg": "^8.7.1",
     "pg-connection-string": "^2.5.0",
     "slugify": "^1.5.3",
-    "strapi": "3.6.2",
+    "strapi": "^3.6.10",
     "strapi-admin": "^3.6.10",
     "strapi-connector-bookshelf": "3.6.2",
     "strapi-plugin-content-manager": "^3.6.10",
