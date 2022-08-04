@@ -3,33 +3,23 @@
  * SocialLink
  */
 
-import React, { memo } from 'react';
-import PropTypes from 'prop-types';
+import React, { memo } from "react";
+import PropTypes from "prop-types";
 
-import Gh from '../../assets/images/social_gh.png';
-import Slack from '../../assets/images/social_slack.png';
-import Medium from '../../assets/images/social_medium.png';
-import Twitter from '../../assets/images/social_twitter.png';
-import Reddit from '../../assets/images/social_reddit.png';
-import Forum from '../../assets/images/social_forum.png';
+import Gh from "../../assets/images/social_gh.png";
+import Twitter from "../../assets/images/social_twitter.png";
+import Reddit from "../../assets/images/social_reddit.png";
 
-import { SocialLinkWrapper } from './components';
+import { SocialLinkWrapper } from "./components";
 
 function getSrc(name) {
   switch (name) {
-    case 'GitHub':
+    case "GitHub":
       return Gh;
-    case 'Reddit':
+    case "Reddit":
       return Reddit;
-    case 'Medium':
-      return Medium;
-    case 'Slack':
-      return Slack;
-    case 'Twitter':
+    case "Twitter":
       return Twitter;
-    case 'Forum':
-    case 'Academy':
-      return Forum;
     default:
       return Gh;
   }
